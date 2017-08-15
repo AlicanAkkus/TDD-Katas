@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.11.0-beta</Version>
+    <Authors>Gaurav Aroraa</Authors>
+    <Copyright>Gaurav Arora</Copyright>
+    <Description>Collection of various katas to practice Test Driven Development.</Description>
+    <PackageLicenseUrl>https://github.com/garora/TDD-Katas/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/garora/TDD-Katas</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/garora/TDD-Katas</RepositoryUrl>
+    <PackageTags>tdd, tddkata, test, mstest, unittest, csharp, code-kata, practices</PackageTags>
+    <PackageIconUrl>https://github.com/garora/TDD-Katas/blob/master/tddkatas.ico</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
